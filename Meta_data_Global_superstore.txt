@@ -1,0 +1,55 @@
+Data Sheet contains main data.
+Return Sheet contains records of orders returned.
+
+____________________________________________________________________________________________________________
+*Data Sheet*
+------------------------------------------------------------------------------------------------------------
+01. Row ID     : Serial number
+02. Order ID   : This column represents the Unique ID for each of the orders
+03. Order Date : This column represents the dates when order placed
+04. Ship Date  : This column represents the dates when order is dispatched to customer
+05. Ship Mode  : This column represents the mode of shipping the order
+			A. Same Day
+			B. First Class
+			C. Second Class
+			D. Standard Class
+
+06. Customer ID    : This column represents the Unique ID number of the customers
+07. Customer Name  : This column represents the name of the customers
+08. Segment        : This column represents the customer segment
+			A. Consumer
+			B. Corporate
+			C. Home Office
+
+09. Postal Code : This column represents the Postal address (for the purpose of sorting)
+10. City        : This column represents the city where the particular customer resides in
+11. State       : This column represents the name of the state where customer resides in/ or the city belongs to
+12. Country     : This column represents the country name of the customer
+13. Region      : This column represents name of the region
+14. Market      : This column represents the market segments
+			A. Africa
+			B. Asia Pacific (APAC)
+			C. Europe
+			D. LATAM (Latin America)
+			E. USCA (United States Code Annotated)
+
+15. Product ID     : This column represents the Unique ID number of the product
+16. Category       : This column represents the product category
+17. Sub-Category   : This column represents the sub-category 
+18. Product Name   : This column represents the name of the product
+19. Sales          : This column represents the sales amount
+20. Quantity       : This column represents the quantity ordered
+21. Discount       : This column represents the discount percentage
+22. Profit         : This column represents the amount of profit/loss
+23. Shipping Cost  : This column represents the shipping cost
+24. Order Priority : This column represents the priority of order
+			A. Low
+			B. Medium
+			C. High
+			D. Critical
+____________________________________________________________________________________________________________
+* Return Sheet *
+------------------------------------------------------------------------------------------------------------
+1. Returned : This column represents whether the order is returned or not
+2. Order ID : This column represents the Unique ID for each of the orders
+3. Region   : This column represents name of the region 
